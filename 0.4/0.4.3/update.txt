@@ -1,0 +1,3 @@
+0.4.2 English
+0.4.3 audios são salvos para aumentar a velocidade
+

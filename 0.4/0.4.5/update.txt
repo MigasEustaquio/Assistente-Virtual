@@ -1,0 +1,4 @@
+0.4.2 English
+0.4.3 audios são salvos para aumentar a velocidade
+0.4.4 melhoria no codigo de audio
+0.4.5 ler e gravar dicionarios em txt
