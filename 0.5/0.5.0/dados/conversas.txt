@@ -1,0 +1,1 @@
+{'ultimo': ['ultimo teste', 'ultimo msm?'], 'hi': ['hello', 'how are you?'], 'qual seu nome?': ['meu nome é fulano', 'eu sou fulano'], 'como vai você?': ['estou bem, obrigado.', 'estou ótimo'], 'what is your name': ['my name is Xion', 'I am Xion, what is your name?']}
