@@ -1,0 +1,41 @@
+import json
+
+def escrever_json(lista):
+    with open('meu_arquivo.json', 'w') as f:
+        json.dump(lista, f)
+
+def carregar_json(arquivo):
+    with open('meu_arquivo.json', 'r') as f:
+        return json.load(f)
+
+minha_lista = ['João', 'Maria', 'José']
+escrever_json(minha_lista)
+
+print(carregar_json('meu_arquivo.json'))  # ['João', 'Maria', 'José']
+
+
+
+
+
+def escrever_txt(lista):
+    with open('meu_arquivo.txt', 'w', encoding='utf-8') as f:
+        for nome in lista:
+            f.write(nome + '\n')
+
+def carregar_txt():
+    with open('meu_arquivo.txt', 'r', encoding='utf-8') as f:
+        return f.readlines()
+
+minha_lista = ['João', 'Maria', 'José']
+escrever_txt(minha_lista)
+
+print(carregar_txt())  # ['João\n', 'Maria\n', 'José\n']
+
+
+
+
+
+
+def carregar_txt():
+    with open('meu_arquivo.txt', 'r', encoding='utf-8') as f:
+        return [nome.strip() for nome in f.readlines()]
