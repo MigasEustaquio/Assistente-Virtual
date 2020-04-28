@@ -1,0 +1,26 @@
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get install python-setuptools
+sudo easy_install pip
+
+sudo apt-get install python3-setuptools
+sudo easy_install3 pip
+
+sudo apt-get install python3-pip
+
+sudo pip3 install wikipedia
+
+sudo pip3 install --upgrade speechrecognition
+
+pip3 install gTTS
+
+pip3 install playsound
+
+sudo apt install python3-pyaudio
+
+pip3 install lxml
+
+
+
+
